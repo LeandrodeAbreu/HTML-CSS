@@ -5,12 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Videos com HTML5</title>
+    <style>
+        body {
+            background-color: lightsteelblue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        h1 {
+            color: darkblue;
+            background-color: rgba(173, 230, 181, 0.521);
+            text-align: center;
+        }
+
+        h2 {
+            color: darkred;
+        }
+
+        p {
+            text-align:center;
+        }
+        video {
+           display: block;
+           margin: auto;
+        }
+    </style>
 </head>
 <body>
-    <h1>Inserindo Vídeos hospedados localmente</h1>
-    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <h1>Leandro e Kacielly</h1>
+    <p>Pequena homenagem para minha nega linda!.</p>
     <!---- <video src="midia/video.ogv" width="500" controls></video> -->
-    <video width="560" poster="imagens/foto.png" controls autoplay loop>
+    <video  width="560" poster="imagens/foto.png" controls autoplay loop>
         <source src="midia/video.mp4" type="video/mp4">
         <source src="midia/video-1.m4v" type="video/mp4">
         <source src="midia/video-1.webm" type="video/webm">
@@ -18,6 +43,6 @@
         <p>Seu navegador não tem compatibilidade com reprodução de Vídeos</p>
 
     </video>
-    
+
 </body>
 </html>
